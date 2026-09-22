@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw dataset archives
+*.tar.bz2
+
+# Extracted dataset files
+dataset/extracted/
+
+# Generated datasets
+emails.csv
+cleaned_emails.csv
+
+# Streamlit cache
+.streamlit/secrets.toml
